@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap');
+:root {
+    --main-bg-color: brown;
+    --font1: 'Baloo 2', cursive;
+    --font2: 'Orelega One', cursive;
+}
+
+.max-width-1 {
+    max-width: 87vw;
+}
+
+.max-width-2 {
+    max-width: 65vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.btn {
+    border: ridge;
+    font-family: inherit;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: rgb(18, 17, 78);
+    transition: all 0.5s ease-in-out;
+}
+
+.form-input {
+    padding: 09px;
+    margin: 4px 9px;
+    border: 2px solid black;
+    text-align: center;
+    font-family: var(--font1);
+}

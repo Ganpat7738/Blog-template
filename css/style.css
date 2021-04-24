@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    font-family: var(--font1);
+    height: 9vw;
+    background-color: rgb(253, 236, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-left ul li :hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(253, 236, 0);
+    transition: none 0.5s ease-in-out;
+    font-weight: bolder;
+}
+
+.nav-left {
+    align-items: center;
+    font-size: 30px;
+    display: flex;
+}
+
+.nav-left ul {
+    display: flex;
+    font-size: 21px;
+    margin: 24px;
+    /*font-weight: bolder;*/
+}
+
+.nav-left ul li {
+    font-family: var(--font2);
+    list-style: none;
+    margin: 0 15px;
+    color: black;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    align-items: center;
+}
+
+.nav-right {}
+
+.content-left {
+    margin: 53px 1px;
+}
+
+.content-right {
+    display: flex;
+    margin: 20px 30px;
+}
+
+.content-right img {
+    height: 250px;
+    width: 261px;
+    border: 2px solid black;
+    border-radius: 149px;
+}
+
+.content-left h1 {
+    font-size: 37px;
+    font-family: var(--font1);
+}
+
+.content-left p {
+    font-family: system-ui;
+}
+
+.content {
+    display: flex;
+    height: 20vw;
+    /*background-color: rgb(126, 125, 201);*/
+    position: relative;
+}
+
+.content::after {
+    content: "";
+    background-image: url("../img/home.svg");
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    opacity: 0.15;
+}
+
+.footer {
+    height: 05vw;
+    background-color: rgb(255, 230, 0);
+    justify-content: center;
+    text-align: center;
+}
+
+.footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: crimson;
+}
+
+.lang {
+    background-color: black;
+}
+
+.articles {
+    display: flex;
+    /*background-color: brown;*/
+    height: auto;
+}
+
+.article-details {
+    margin: 35px 7px
+}
+
+.article {
+    display: flex;
+}
+
+.article img {
+    width: 243px;
+    margin: 10px 20px;
+}
+
+.article-left {
+    width: 70%;
+}
+
+.article-right {
+    background-color: rgb(255, 184, 4);
+    width: 30%;
+}
+
+.article-right img {
+    height: 135px;
+    width: 353px;
+    margin: 63px 20px
+}

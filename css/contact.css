@@ -1,0 +1,22 @@
+.form {
+    margin: 34px 59px;
+}
+
+.email {
+    margin: 26px 0px;
+}
+
+.form-control {
+    margin: 8px 0px;
+    width: 70%;
+    height: 32px;
+}
+
+.form-lable {}
+
+.contact-content {
+    padding: 68px 170px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(126, 125, 201);
+}
